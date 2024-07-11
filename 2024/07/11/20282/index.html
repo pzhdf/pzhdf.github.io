@@ -87,7 +87,7 @@
 <meta property="og:description" content="这是一次冒险的尝试。有可能会改变一些人的生活。">
 <meta property="og:locale">
 <meta property="article:published_time" content="2024-07-11T08:53:16.000Z">
-<meta property="article:modified_time" content="2024-07-11T08:53:56.373Z">
+<meta property="article:modified_time" content="2024-07-11T09:52:48.596Z">
 <meta property="article:author" content="coolwind">
 <meta property="article:tag" content="记录 生活">
 <meta name="twitter:card" content="summary">
@@ -413,6 +413,9 @@
           
 
   
+ <div id="gitalk-container"></div>
+
+  
 
 
 
@@ -682,6 +685,24 @@
 
 
 
+
+
+
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+   <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'Client ID',
+          clientSecret: 'Client Secret',
+          repo: '仓库名称',
+          owner: 'github帐号',
+          admin: ['github帐号'],
+          id: location.pathname,
+          distractionFreeMode: 'true'
+        })
+        gitalk.render('gitalk-container')
+       </script>
 
 
 
