@@ -103,11 +103,4 @@
         <tag>体会</tag>
       </tags>
   </entry>
-  <entry>
-    <title>test</title>
-    <url>/2025/02/14/20250215/</url>
-    <content><![CDATA[<p>这是一篇示例文章，下面是一个可执行的 HTML 按钮。</p>
-<p><button onclick="alert('你点击了按钮！')">点击我</button></p>
-]]></content>
-  </entry>
 </search>
